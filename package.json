@@ -1,13 +1,10 @@
 {
   "version": "0.0.0",
   "private": true,
-  "name": "weather-app",
+  "name": "Naturetour",
   "license": "MIT",
-  "dependencies": {
-
-  },
   "scripts": {
-    "start": "webpack-dev-server --port 8082 --hot --inline",
+    "start": "webpack-dev-server --port 3000 --hot --inline",
     "build": "webpack"
   },
   "devDependencies": {
