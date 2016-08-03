@@ -1,0 +1,12 @@
+.breadcrumbs {
+	&__list-item {
+		display: inline-block;
+	}
+	
+	&__item {
+		display: block;
+    text-decoration: none;
+    color: #14961c;
+    padding: .7em 1.5em;
+	}
+}

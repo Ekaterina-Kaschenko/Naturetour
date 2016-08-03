@@ -1,0 +1,10 @@
+.content {
+	float: left;
+	&-text {
+		font: .75em Arial, sans-serif;
+	}
+
+	&-title {
+		font: .875em Arial, sans-serif;	
+	}
+}

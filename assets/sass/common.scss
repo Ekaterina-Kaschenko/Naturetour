@@ -1,0 +1,46 @@
+body {
+  background-image: url(../images/bg.jpg);
+  font-family: 'MyriadPro', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.section {
+	max-width: 990px;
+	margin: 0 auto;
+
+	&__text {
+		font-size: .7em;
+		padding-bottom: .2em;
+	}
+
+	&__title {
+		font-size: 1.25em;
+	}
+
+	&__left {
+		float: left;
+	}
+
+	&__right {
+		float: right;
+	}
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1330px;
+
+  &:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+

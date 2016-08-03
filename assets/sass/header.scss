@@ -1,0 +1,31 @@
+.header {
+	padding: 1em 0;
+	overflow: hidden;
+
+	&__info {
+		font-family: 'ZurichBT';
+		text-align: right;
+		line-height: 1em;
+	}
+}
+
+
+.logo {
+	margin-left: 1.8em;
+}
+
+.menu {
+	&__item {
+		font-size: 1.2em;
+		text-decoration: none;
+		color: #209a28;
+		text-transform: uppercase;
+	}
+
+	&__list-item {
+		float: left;
+    margin-left: 20px;
+    padding: 2em 0;
+    font-size: .5em;
+	}
+}

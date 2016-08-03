@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "ZurichBT";
+  src: url("../fonts/ZurichBT/Roman/zurich_bt_roman.eot");
+  src: url("../fonts/ZurichBT/Roman/zurich_bt_roman.woff") format("woff"),
+    url("../fonts/ZurichBT/Roman/zurich_bt_roman.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ZurichBT";
+  src: url("../fonts/ZurichBT/Bold/zurich_bt_bold.eot");
+  src: url("../fonts/ZurichBT/Bold/zurich_bt_bold.woff") format("woff"),
+    url("../fonts/ZurichBT/Bold/zurich_bt_bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ZurichBT";
+  src: url("../fonts/ZurichBT/Italic/zurich_bt_italic.eot");
+  src: url("../fonts/ZurichBT/Italic/zurich_bt_italic.woff") format("woff"),
+    url("../fonts/ZurichBT/Italic/zurich_bt_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro/Regular/MyriadProRegular.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
