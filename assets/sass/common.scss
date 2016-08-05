@@ -30,17 +30,18 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1330px;
+}
 
-  &:after {
-		content: '';
-		display: table;
-		clear: both;
-	}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 
-
-
-
-
-
+// .section, .conteiner, div {
+// 	border: 2px solid black;
+// }

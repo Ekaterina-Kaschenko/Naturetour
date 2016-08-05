@@ -9,7 +9,6 @@
 
 	&__list {
 		width: 100%;
-		// background: linear-gradient(#65c03e, #18991e);
 		border-radius: .4em
 	}
 	&__list-item {
@@ -24,22 +23,32 @@
 	  text-transform: uppercase;
 	  text-decoration: none;
 	  transition: .5s ease;
+
+
+	  @each $colorName, $colorList in $element {
+	   &_#{$colorName}:not(:hover) {
+	      @include vertical-gradient(nth($colorList, 1), nth($colorList, 2));
+	       box-shadow: 0 0 0 0 rgba(0, 0, 0, .5) inset;
+	       transition: .5s ease;
+	    }
+
+	    &_#{$colorName}:hover {
+	      background-color: nth($colorList, 3);
+	      transition: .5s ease;
+	    }
+
+	    &_#{$colorName}:active {
+	      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) inset;
+	    }
+	  }
 	}
 
 	@each $colorName, $colorList in $element {
-	  &_#{$colorName}:not(:hover) {
-	    // @include vertical-gradient(nth($colorList, 1), nth($colorList, 2));
-	     box-shadow: 0 -2px 1px 0 rgba(0, 0, 0, .5) inset;
-	  }
-
-	  &_#{$colorName}:hover {
-	    background-color: nth($colorList, 3);
-	  }
-
-	  &_#{$colorName}:active {
-	    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) inset;
+	 &_#{$colorName} {
+	    @include vertical-gradient(nth($colorList, 1), nth($colorList, 2));
+	     box-shadow: 0 0 0 0 rgba(0, 0, 0, .5) inset;
 	  }
 	}
-	
+
 }
 
