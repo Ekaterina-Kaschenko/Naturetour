@@ -1,24 +1,19 @@
 {
-  "version": "0.0.0",
-  "private": true,
-  "name": "Naturetour",
-  "license": "MIT",
-  "scripts": {
-    "start": "webpack-dev-server --port 3000 --hot --inline",
-    "build": "webpack"
+  "name": "naturetour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "owl.carousel": "^2.1.4"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.5",
-    "html-loader": "^0.4.3",
-    "node-sass": "^3.8.0",
-    "postcss-loader": "^0.9.1",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1"
-  }
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files './styles/**/*.css'"
+  },
+  "author": "Kate Kashchenko",
+  "license": "ISC"
 }

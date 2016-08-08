@@ -1,0 +1,48 @@
+.slider {
+	&__slide {
+		position: relative;
+	}
+
+	&-img {
+		border-radius: .625em;
+	}
+
+	&__description {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 235px;
+		height: 100%;
+		background-color: rgba(000, 000, 000, 0.9);
+		border-radius: 0 1em 1em 0;
+		padding: 1.4em 1em;
+	}
+
+	&-title {
+		font-size: 1.2em;
+	}
+
+	&-header {
+		font-size: 2em;
+    padding: .2em 0;
+    color: #28b028;
+    letter-spacing: -1px;
+	}
+}
+
+
+
+.title {
+	font: 14px 'ZurichBT', Arial, sans-serif;
+	color: #fff;
+}
+
+.link {
+	color: #28b028;
+}
+
+.owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

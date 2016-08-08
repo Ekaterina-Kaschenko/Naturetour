@@ -30,6 +30,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1330px;
+
 }
 
 .clearfix:after {
@@ -45,3 +46,27 @@ body {
 // .section, .conteiner, div {
 // 	border: 2px solid black;
 // }
+
+.text {
+	font: 12px Arial, sans-serif;
+	color: #fff;
+	line-height: 1.5em;
+  margin: .5em 0;
+} 
+
+.title {
+	font: 14px Arial, sans-serif;
+} 
+
+.sidebar-title {
+	font: 14px 'ZurichBT', Arial, sans-serif;
+	color: #fff;
+} 
+
+.tabs {
+	font: 18px 'ZurichBT', Arial, sans-serif;
+} 
+
+.content-header {
+	font: 26px 'MyriadPro';
+}
